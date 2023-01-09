@@ -82,8 +82,8 @@ transitions();
 function updateType() {
     var typed = new Typed(".auto-input", {
         strings: [
-            "I'm a front end Developer",
-            "I build aesthetic Websites",
+            "I'm a full stack developer",
+            "I'm a computer science graduate with a passion for interesting projects",
             "Explore more on my site😉❤️",
         ],
         typeSpeed: 90,
