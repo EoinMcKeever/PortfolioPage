@@ -11,9 +11,6 @@ function transitions() {
             current[0].className = current[0].className.replace(" active-btn", "");
             this.className += " active-btn active";
 
-            // var currents = document.getElementsByClassName("active");
-            // currents[0].className = current[0].className.replace(" active", "");
-            // this.className += " active";
         });
     }
 
@@ -67,12 +64,7 @@ function transitions() {
     }
     updateClock();
 
-    // element.addEventListener("click", myFunction);
 
-    // function myFunction() {
-    //     let el = document.body;
-    //     el.classList.toggle("light-mode");
-    // }
 }
 
 transitions();
@@ -82,12 +74,14 @@ transitions();
 function updateType() {
     var typed = new Typed(".auto-input", {
         strings: [
-            "I'm a full stack developer",
-            "I'm a computer science graduate with a passion for interesting projects",
+            "I'm a full stack developer.",
+            "I'm a computer science graduate.",
+            "Checkout some of my skills in the 'About' section.",
+            "I'm passionate about working on interesting projects.",
             "Explore more on my site😉❤️",
         ],
-        typeSpeed: 90,
-        backSpeed: 60,
+        typeSpeed: 50,
+        backSpeed: 50,
         loop: true,
     });
     $(".typed-cursor").css("visibility", "hidden");
