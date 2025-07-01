@@ -74,11 +74,11 @@ transitions();
 function updateType() {
     var typed = new Typed(".auto-input", {
         strings: [
-            "I'm a Full Stack Machine Learning Engineer.",
-            "I build AI-powered web applications.",
-            "Skilled in Python, TensorFlow, React, and more.",
-            "End-to-end ML: Data, Models, Deployment.",
-            "Explore my AI and software projects!",
+            "I am a Full Stack Machine Learning Engineer",
+            "I build AI powered web applications",
+            "Skilled in Python TensorFlow React and more",
+            "End to end ML Data Models Deployment",
+            "Explore my AI and software projects"
         ],
         typeSpeed: 50,
         backSpeed: 50,
